@@ -1,0 +1,113 @@
+{
+  "main": {
+    "id": "44f4832e5484373f",
+    "type": "split",
+    "children": [
+      {
+        "id": "1d07d1fdb3f905c3",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "README.md",
+            "mode": "preview",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e33380e53a3182d1",
+    "type": "split",
+    "children": [
+      {
+        "id": "c313a68680b24b33",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d6300da5d0e1f0c2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "080d9784a2a14720",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fe67485288c71cbe",
+    "type": "split",
+    "children": [
+      {
+        "id": "84f45c6e63aa19aa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "551dd6ceb59c778b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "6084d959b6f01e01",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0b3c00f50d062893",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "1d07d1fdb3f905c3",
+  "lastOpenFiles": [
+    "README.md",
+    "Periodic/Daily/2022-02-24.md",
+    "Templates/Daily Template.md",
+    "Periodic/Daily/2022-02-26.md",
+    "Periodic/Daily/2022-02-25.md",
+    "Periodic/Daily/📅 2022-02-24.md",
+    "2022-02-25.md"
+  ]
+}
