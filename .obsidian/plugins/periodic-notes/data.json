@@ -5,19 +5,20 @@
   "daily": {
     "format": "YYYY-MM-DD",
     "template": "",
-    "folder": "Periodic/Daily",
+    "folder": "03 Periodic/Daily",
     "enabled": true
   },
   "weekly": {
     "format": "",
     "template": "",
-    "folder": "",
-    "enabled": false
+    "folder": "03 Periodic/Weekly",
+    "enabled": true
   },
   "monthly": {
-    "format": "",
+    "format": "YYYY-MM - MMMM `YY",
     "template": "",
-    "folder": ""
+    "folder": "03 Periodic/Monthly",
+    "enabled": true
   },
   "quarterly": {
     "format": "",

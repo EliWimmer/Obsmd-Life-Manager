@@ -1,4 +1,7 @@
 {
   "baseFontSize": 16,
-  "cssTheme": "Minimal"
+  "cssTheme": "Minimal",
+  "enabledCssSnippets": [
+    "supercharged-links-gen"
+  ]
 }

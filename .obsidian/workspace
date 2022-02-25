@@ -4,12 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "1d07d1fdb3f905c3",
+        "id": "3f5a5a13c9779116",
         "type": "leaf",
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
             "file": "README.md",
+            "mode": "preview",
+            "source": false
+          },
+          "pinned": true
+        }
+      },
+      {
+        "id": "e7b6d7d3010d3cd4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "03 Periodic/Daily/2022-02-24.md",
+            "mode": "preview",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "40bfcd643205f136",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "04 Templates/Project Template.md",
             "mode": "preview",
             "source": false
           }
@@ -69,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "04 Templates/Project Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,11 +126,13 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "1d07d1fdb3f905c3",
+  "active": "40bfcd643205f136",
   "lastOpenFiles": [
+    "04 Templates/Project Template.md",
+    "03 Periodic/Daily/2022-02-24.md",
+    "01 Dashboards/Alignment.md",
+    "04 Templates/Daily Template.md",
     "README.md",
-    "Periodic/Daily/2022-02-24.md",
-    "Templates/Daily Template.md",
     "Periodic/Daily/2022-02-26.md",
     "Periodic/Daily/2022-02-25.md",
     "Periodic/Daily/📅 2022-02-24.md",
