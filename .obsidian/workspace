@@ -4,31 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "7d6c1798208bd4ca",
+        "id": "6ed9a6d43986c4e9",
         "type": "leaf",
-        "dimension": 38.577456298975285,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "03 Periodic/01 Daily/2022-02-24.md",
-            "mode": "preview",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "97f00574cd68e17f",
-        "type": "leaf",
-        "dimension": 61.42254370102472,
         "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "06 Guide/Projects, Goals, and Values.md",
-            "mode": "source",
+            "file": "02 Action/02 Action.md",
+            "mode": "preview",
             "source": false
           },
           "pinned": true
+        }
+      },
+      {
+        "id": "42b97db3a9996953",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "02 Action/03 Goals/Create Cool Stuff.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -39,9 +37,9 @@
     "type": "split",
     "children": [
       {
-        "id": "c313a68680b24b33",
+        "id": "61cef96a664d8557",
         "type": "tabs",
-        "dimension": 69.06158357771261,
+        "dimension": 55.49853372434017,
         "children": [
           {
             "id": "d6300da5d0e1f0c2",
@@ -77,9 +75,9 @@
         ]
       },
       {
-        "id": "1be54bd127f252b0",
+        "id": "8f2ff99843a19150",
         "type": "tabs",
-        "dimension": 30.93841642228739,
+        "dimension": 44.50146627565982,
         "children": [
           {
             "id": "856979b6214bb80f",
@@ -106,17 +104,29 @@
     "type": "split",
     "children": [
       {
-        "id": "84f45c6e63aa19aa",
+        "id": "d6c645e36fe025a2",
         "type": "tabs",
-        "dimension": 72.58064516129032,
+        "dimension": 71.5542521994135,
         "children": [
+          {
+            "id": "dcaa2e4e44144a89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 Action/01 Tasks/01 Tasks.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
           {
             "id": "551dd6ceb59c778b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03 Periodic/01 Daily/2022-02-24.md",
+                "file": "02 Action/03 Goals/Create Cool Stuff.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +142,7 @@
       {
         "id": "6084d959b6f01e01",
         "type": "tabs",
-        "dimension": 27.419354838709676,
+        "dimension": 28.445747800586513,
         "children": [
           {
             "id": "0b3c00f50d062893",
@@ -146,19 +156,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 501.5
   },
-  "active": "7d6c1798208bd4ca",
+  "active": "42b97db3a9996953",
   "lastOpenFiles": [
-    "03 Periodic/01 Daily/2022-02-24.md",
-    "06 Guide/Quick Start.md",
-    "06 Guide/Projects, Goals, and Values.md",
-    "Home.md",
-    "02 Action/01 Tasks/01 Tasks.md",
-    "02 Action/02 Action.md",
-    "02 Action/02 Projects/02 Projects.md",
-    "02 Action/03 Goals/03 Goals.md",
     "02 Action/03 Goals/Create Cool Stuff.md",
-    "02 Action/02 Projects/Build OLM Repo.md"
+    "02 Action/02 Action.md",
+    "03 Periodic/01 Daily/01 Daily.md",
+    "03 Periodic/02 Weekly/02 Weekly.md",
+    "03 Periodic/02 Weekly/2022/02-February/2022-W08.md",
+    "03 Periodic/01 Daily/2022/02-February/2022-02-28.md",
+    "03 Periodic/01 Daily/2022/02-February/2022-02-27.md",
+    "03 Periodic/01 Daily/2022/02-February/2022-02-26.md",
+    "03 Periodic/01 Daily/2022/02-February/2022-02-25.md",
+    "03 Periodic/01 Daily/2022/02-February/2022-02-24.md"
   ]
 }

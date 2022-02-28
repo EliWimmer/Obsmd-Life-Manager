@@ -1,10 +1,9 @@
 ---
 tags: goal
-cssClasses: row-alt, table-small, table-max, cards
 ---
 # Create Cool Stuff
 
-[Why :: Because it's good]  ⠀•⠀ [Value:: [[Be Prolific]]]  ⠀•⠀ [Deadline :: 📅 2022-03-01]  ⠀•⠀ [Complete :: ❌]
+[Why :: Because why wouldn't you]  ⠀•⠀ [Value:: [[Prolific]]]  ⠀•⠀ [Deadline :: 📅 2022-03-06]  ⠀•⠀ [Complete :: ❌]
 
 ---
 ## Related Projects

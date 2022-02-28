@@ -1,3 +1,5 @@
+[[Quick Start|← Back to Quick Start]]
+---
 ## Metadata
 All YAML data autofills via templater on new day creation.
 ```
@@ -53,6 +55,8 @@ hide task count
 Dailies include a daily journal, which will appear in the weekly note, Habits, which will appear in the [[02 Action|Alignment]] dashboard and the weekly & monthly note.
 
 Run log is included for example of other things you may want to put here and query from somewhere else.
+
+Currently the plugin Metaedit is not working correctly, so the daily habits should be manually filled in with a ✅ or ❌ emoji.
 
 ###### ◧ MORNING JOURNAL
 [Morning Gratitude :: ]

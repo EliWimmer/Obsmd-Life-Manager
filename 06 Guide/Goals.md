@@ -1,10 +1,11 @@
 ---
 cssClasses: cards
-banner: https://assets.hongkiat.com/uploads/minimalist-dekstop-wallpapers/4k/original/10.jpg
 ---
-⠀
 # Goals Dashboard
-```dataview
+The WHERE statement is required to prevent the folder note (dashboard) from appearing in the list.
+*dataview code*
+```
+dataview
 TABLE
 	string("Why: " + why) AS "Why",
 	string("Value: ") + value AS "Value",

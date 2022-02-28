@@ -3,21 +3,21 @@
   "hasMigratedDailyNoteSettings": false,
   "hasMigratedWeeklyNoteSettings": false,
   "daily": {
-    "format": "YYYY-MM-DD",
+    "format": "YYYY/MM-MMMM/YYYY-MM-DD",
     "template": "",
-    "folder": "03 Periodic/Daily",
+    "folder": "03 Periodic/01 Daily",
     "enabled": true
   },
   "weekly": {
-    "format": "",
+    "format": "YYYY/MM-MMMM/gggg-[W]ww",
     "template": "",
-    "folder": "03 Periodic/Weekly",
+    "folder": "03 Periodic/02 Weekly",
     "enabled": true
   },
   "monthly": {
-    "format": "YYYY-MM - MMMM `YY",
+    "format": "YYYY/YYYY - MM-MMMM",
     "template": "",
-    "folder": "03 Periodic/Monthly",
+    "folder": "03 Periodic/03 Monthly",
     "enabled": true
   },
   "quarterly": {

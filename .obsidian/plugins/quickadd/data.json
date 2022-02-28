@@ -173,7 +173,7 @@
             },
             "format": {
               "enabled": true,
-              "format": "\n---\n### Tasks\n"
+              "format": "\n---\n### Tasks\n\n"
             },
             "insertAfter": {
               "enabled": false,
@@ -298,7 +298,7 @@
             },
             "format": {
               "enabled": true,
-              "format": "[Why :: {{VALUE: Define your why}}]  ⠀•⠀ [Value:: {{VALUE: Link to Value}}]  ⠀•⠀ [Deadline :: {{VDATE:Deadline, 📅 YYYY-MM-DD}}]  ⠀•⠀ [Complete :: ❌]"
+              "format": "[Why :: {{VALUE: Define your why}}]  ⠀•⠀ [Value:: {{VALUE: Link to Value}}]  ⠀•⠀ [Deadline :: {{VDATE:Deadline, 📅 YYYY-MM-DD}}]  ⠀•⠀ [Complete :: ❌]\n\n---\n## Related Projects\n```dataview\nTABLE\n\ttarget AS \"Target\",\n\tgoal AS \"Goal\",\n\tdeadline as \"Deadline\",\n\tcomplete as \"Complete\"\nFROM \"02 Action/02 Projects\"\nWHERE goal = [[Create Cool Stuff]]\nSORT complete DESCENDING\n```"
             },
             "insertAfter": {
               "enabled": false,
@@ -330,6 +330,83 @@
           "type": "Obsidian",
           "id": "ef3b1485-9f0e-4701-942a-e89590f40bd0",
           "commandId": "obsidian-tasks-plugin:edit-task"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "+ Value",
+      "id": "7fc7f15d-19f6-4363-aea7-829f3cd42d4d",
+      "commands": [
+        {
+          "name": "Value Template",
+          "type": "NestedChoice",
+          "id": "f53a4561-61e3-4d26-9bad-62bbd97f5a71",
+          "choice": {
+            "id": "65f955dd-6678-466c-81ed-b8c3d6adf53d",
+            "name": "Value Template",
+            "type": "Template",
+            "command": false,
+            "templatePath": "04 Templates/Value Template",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE: Value Name}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "incrementFileName": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Why",
+          "type": "NestedChoice",
+          "id": "f8d9ca1d-cef4-4ad2-bb0e-2367e424894f",
+          "choice": {
+            "id": "867e3073-9c4d-4509-b680-caf5be5f8c13",
+            "name": "Why",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "[Why :: {{VALUE: Your Why}}]"
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": true,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
         }
       ],
       "runOnStartup": false

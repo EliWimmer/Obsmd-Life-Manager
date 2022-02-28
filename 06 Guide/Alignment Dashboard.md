@@ -1,3 +1,5 @@
+[[Quick Start|← Back to Quick Start]]
+---
 ## Alignment Dashboard
 The Alignment dashboard is a place to view your life from the top down. Very inspired by August Bradley's PPV system in Notion. 
 

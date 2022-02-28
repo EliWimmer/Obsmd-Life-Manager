@@ -15,12 +15,20 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "03 Periodic/Daily",
+      "folder": "03 Periodic/01 Daily",
       "template": "04 Templates/Daily Template.md"
     },
     {
       "folder": "02 Action/02 Projects",
       "template": "04 Templates/Project Template.md"
+    },
+    {
+      "folder": "03 Periodic/02 Weekly",
+      "template": "04 Templates/Weekly Template.md"
+    },
+    {
+      "folder": "03 Periodic/03 Monthly",
+      "template": "04 Templates/Monthly Template.md"
     }
   ],
   "syntax_highlighting": true,

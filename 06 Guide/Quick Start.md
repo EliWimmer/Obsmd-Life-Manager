@@ -1,11 +1,16 @@
 # Quick Start
-Primary system navigation is on the bottom of the left panel. This gives quick access to all the dashboards.
-
-Use `Ctrl + Shift + P` to quickly add tasks, projects, etc.
+Welcome to OLM, explore, and feel free to @ me on [Twitter](https://twitter.com/eliwimm) if you have any questions, or [open an issue](https://github.com/EliWimmer/Obsmd-Life-Manager/issues) on github if you have suggestions or find problems.
+## Basic Usage
+- Primary navigation is done via the [[Home]] page, which is also found in the left sidebar.
+- The [[01 Tasks|Tasks Dashboard]] and calendar can be found in the right panel.
+- Use `Ctrl + Shift + P` to quickly add tasks, projects, etc. with Quickadd
+- Shift click top level folders to view all associated content.
+- Use calendar to create daily note as usual.
 ## Further Reading
-- [[Daily Note]]
-- [[Alignment Dashboard]]
 - [[Projects, Goals, and Values]]
+- [[Alignment Dashboard]]
+- [[Periodic Overviews]]
+- [[Periodic Notes]]
 ## Plugins
 ### Required
 - Periodic Notes
@@ -15,7 +20,6 @@ Use `Ctrl + Shift + P` to quickly add tasks, projects, etc.
 - Obsidian Tasks
 - Templater
 - Folder Note
-- Meta Edit
 ### Recommended
 - Minimal Theme
 - Minimal Theme Settings

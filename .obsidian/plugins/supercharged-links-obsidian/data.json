@@ -16,7 +16,7 @@
     {
       "type": "path",
       "name": "",
-      "value": "03 Periodic/01 Daily",
+      "value": "03 Periodic/",
       "matchCaseSensitive": false,
       "match": "contains",
       "uid": "3213-2f25",

@@ -11,7 +11,8 @@ banner_y: 0.5
 ```dataview
 TABLE
 why AS "Why"
-FROM "300 Action/330 Values"
+FROM "02 Action/04 Values"
+WHERE file.name != "04 Values"
 ```
 
 #### ◎ GOALS

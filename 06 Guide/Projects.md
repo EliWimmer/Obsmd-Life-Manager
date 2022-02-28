@@ -1,12 +1,11 @@
 ---
 cssClasses: cards
-banner: https://i.redd.it/qmm6mqqdw3k41.jpg
-banner_x: 0.5
-banner_y: 0.66466
 ---
-⠀
 # Projects Dashboard
-```dataview
+The WHERE statement is required to prevent the folder note (dashboard) from appearing in the list.
+*dataview code*
+```
+dataview
 TABLE
 	string("Target: " + target) AS "Target",
 	string("Goal: ") + goal AS "Goal",
