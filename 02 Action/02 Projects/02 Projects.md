@@ -1,7 +1,7 @@
 ---
 cssClasses: cards
 ---
-# Projects Overview
+# Projects Dashboard
 ```dataview
 TABLE
 	string("Target: " + target) AS "Target",

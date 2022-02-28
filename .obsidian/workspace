@@ -4,15 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "cddc39c3d3575ea9",
+        "id": "7d6c1798208bd4ca",
         "type": "leaf",
+        "dimension": 38.577456298975285,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "02 Action/02 Projects/Make homemade pesto.md",
-            "mode": "source",
+            "file": "03 Periodic/01 Daily/2022-02-24.md",
+            "mode": "preview",
             "source": false
           }
+        }
+      },
+      {
+        "id": "97f00574cd68e17f",
+        "type": "leaf",
+        "dimension": 61.42254370102472,
+        "pinned": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "06 Guide/Projects, Goals, and Values.md",
+            "mode": "source",
+            "source": false
+          },
+          "pinned": true
         }
       }
     ],
@@ -25,6 +41,7 @@
       {
         "id": "c313a68680b24b33",
         "type": "tabs",
+        "dimension": 69.06158357771261,
         "children": [
           {
             "id": "d6300da5d0e1f0c2",
@@ -58,6 +75,27 @@
             }
           }
         ]
+      },
+      {
+        "id": "1be54bd127f252b0",
+        "type": "tabs",
+        "dimension": 30.93841642228739,
+        "children": [
+          {
+            "id": "856979b6214bb80f",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -70,6 +108,7 @@
       {
         "id": "84f45c6e63aa19aa",
         "type": "tabs",
+        "dimension": 72.58064516129032,
         "children": [
           {
             "id": "551dd6ceb59c778b",
@@ -77,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 Action/02 Projects/Make homemade pesto.md",
+                "file": "03 Periodic/01 Daily/2022-02-24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,6 +132,7 @@
       {
         "id": "6084d959b6f01e01",
         "type": "tabs",
+        "dimension": 27.419354838709676,
         "children": [
           {
             "id": "0b3c00f50d062893",
@@ -108,17 +148,17 @@
     "direction": "horizontal",
     "width": 300.5
   },
-  "active": "cddc39c3d3575ea9",
+  "active": "7d6c1798208bd4ca",
   "lastOpenFiles": [
-    "02 Action/02 Projects/Make homemade pesto.md",
+    "03 Periodic/01 Daily/2022-02-24.md",
+    "06 Guide/Quick Start.md",
+    "06 Guide/Projects, Goals, and Values.md",
+    "Home.md",
     "02 Action/01 Tasks/01 Tasks.md",
-    "02 Action/01 Tasks/2022-  Wk 10 Tasks.md",
+    "02 Action/02 Action.md",
     "02 Action/02 Projects/02 Projects.md",
     "02 Action/03 Goals/03 Goals.md",
-    "02 Action/03 Goals/Learn to make pasta.md",
-    "02 Action/02 Projects/Learn to make pasta.md",
-    "02 Action/02 Projects/Completed Project.md",
-    "02 Action/02 Projects/Build OLM Repo.md",
-    "02 Action/02 Action.md"
+    "02 Action/03 Goals/Create Cool Stuff.md",
+    "02 Action/02 Projects/Build OLM Repo.md"
   ]
 }

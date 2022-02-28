@@ -1,11 +1,11 @@
 ---
 cssClasses: cards
 ---
-# Goals Overview
+# Goals Dashboard
 ```dataview
 TABLE
-	string("Target: " + target) AS "Target",
-	string("Goal: ") + goal AS "Goal",
+	string("Why: " + why) AS "Why",
+	string("Value: ") + value AS "Value",
 	string("Deadline: ") + deadline as "Deadline",
 	string("Complete: ") + complete as "Complete"
 FROM "02 Action/03 Goals"

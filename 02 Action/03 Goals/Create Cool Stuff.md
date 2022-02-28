@@ -1,6 +1,6 @@
 ---
 tags: goal
-cssClasses: row-alt, table-small, table-max
+cssClasses: row-alt, table-small, table-max, cards
 ---
 # Create Cool Stuff
 

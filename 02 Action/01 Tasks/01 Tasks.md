@@ -1,3 +1,6 @@
+[[‼️ Overdue Tasks]]  ⠀•⠀ [[🗓️ Upcoming Tasks]]  ⠀•⠀ [[☑️ Completed Tasks]]
+  
+---
 ## All Tasks
 ```tasks
 not done

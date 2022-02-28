@@ -9,3 +9,5 @@ tags: project
 
 ---
 ### Tasks
+- [ ] Buy herbs & garlic 🔼 📅 2022-02-28
+- [ ] Find recipe ⏫ 📅 2022-02-28
