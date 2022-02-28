@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "OLM - 04 Templates",
+  "templates_folder": "04 Templates",
   "templates_pairs": [
     [
       "",
@@ -15,12 +15,12 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "OLM - 03 Periodic/Daily",
-      "template": "OLM - 04 Templates/Daily Template.md"
+      "folder": "03 Periodic/Daily",
+      "template": "04 Templates/Daily Template.md"
     },
     {
-      "folder": "OLM - 02 Action/Projects",
-      "template": "OLM - 04 Templates/Project Template.md"
+      "folder": "02 Action/02 Projects",
+      "template": "04 Templates/Project Template.md"
     }
   ],
   "syntax_highlighting": true,

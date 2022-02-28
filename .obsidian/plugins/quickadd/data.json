@@ -37,7 +37,7 @@
           "name": "+ Project",
           "type": "Template",
           "command": false,
-          "templatePath": "OLM - 04 Templates/Project Template",
+          "templatePath": "04 Templates/Project Template",
           "fileNameFormat": {
             "enabled": true,
             "format": "{{VALUE: Project Name}}"
@@ -45,7 +45,7 @@
           "folder": {
             "enabled": true,
             "folders": [
-              "OLM - 02 Action/Projects"
+              "02 Action/02 Projects"
             ],
             "chooseWhenCreatingNote": false,
             "createInSameFolderAsActiveFile": false
@@ -134,7 +134,7 @@
             },
             "format": {
               "enabled": true,
-              "format": "[Goal :: {{VALUE: Link to related Goal}}]  ⠀•⠀ [Deadline :: {{VDATE: Deadline(YYYY-MM-DD or Relative), 📅 [[YYYY-MM-DD]]}}] ⠀•⠀ [Complete :: false]"
+              "format": "[Goal :: {{VALUE: Link to related Goal}}]  ⠀•⠀ [Deadline :: {{VDATE: Deadline(YYYY-MM-DD or Relative), 📅 YYYY-MM-DD }}] ⠀•⠀ [Complete :: ❌]"
             },
             "insertAfter": {
               "enabled": false,
@@ -143,7 +143,7 @@
               "createIfNotFound": false,
               "createIfNotFoundLocation": "top"
             },
-            "prepend": false,
+            "prepend": true,
             "task": false,
             "openFileInNewTab": {
               "enabled": false,
@@ -173,7 +173,7 @@
             },
             "format": {
               "enabled": true,
-              "format": "[Target :: {{VALUE: Target / Completion Criterea}}]]"
+              "format": "[Target :: {{VALUE: Target / Completion Criterea}}]]\n\n---"
             },
             "insertAfter": {
               "enabled": false,
@@ -239,6 +239,45 @@
       "name": "+ Inline Task",
       "id": "b6c14cbb-eae8-4641-ab54-51dae03e735e",
       "commands": [
+        {
+          "name": "New Line",
+          "type": "NestedChoice",
+          "id": "62f99460-38fa-470f-af31-aa6e2abb387f",
+          "choice": {
+            "id": "b02f48ad-0c57-4a47-83e7-3f6c5fc89096",
+            "name": "New Line",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": " "
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
         {
           "name": "Tasks: Create or edit task",
           "type": "Obsidian",

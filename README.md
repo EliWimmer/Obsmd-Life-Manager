@@ -12,6 +12,7 @@ OLM is a productivity system for Obsidian. Includes task and project management,
 - [[README#^46a1ce|Obsidian Tasks]]*
 - [[README#^131b07|Quickadd]]*
 - [[README#^52bb91|Natural Language Dates]]*
+- [[README#^c945b2|Folder Notes]]*
 - [[README#^333034|Obsidian Hider]]
 - [[README#^332919|Supercharged Links]]
 - [[README#^3f67c5|Obsidian Banners]]
@@ -58,6 +59,11 @@ OLM is a productivity system for Obsidian. Includes task and project management,
 #### Natural Language Dates
 
 ^52bb91
+
+*Required*
+#### Folder Notes
+
+^c945b2
 
 *Required*
 #### Obsidian Hider

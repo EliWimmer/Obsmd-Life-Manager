@@ -16,7 +16,7 @@
     {
       "type": "path",
       "name": "",
-      "value": "OLM - 03 Periodic/Daily",
+      "value": "03 Periodic/Daily",
       "matchCaseSensitive": false,
       "match": "contains",
       "uid": "3213-2f25",
@@ -28,7 +28,7 @@
     {
       "type": "path",
       "name": "",
-      "value": "OLM - 02 Action/Projects",
+      "value": "02 Action/Projects",
       "matchCaseSensitive": false,
       "match": "contains",
       "uid": "a2cb-1cab",
