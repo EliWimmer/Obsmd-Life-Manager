@@ -8,11 +8,11 @@
     "fontSize": 16,
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiEyeLine",
+      "RiCheckLine",
       "RiLineHeight",
       "RiCalendar2Line",
-      "RiCalendarEventLine",
-      "RiCalendarTodoLine",
-      "RiCalendarCheckLine"
+      "RiCalendarEventLine"
     ],
     "recentlyUsedIconsSize": 5,
     "extraPadding": {
@@ -22,7 +22,6 @@
       "left": 2
     }
   },
-  "01 Dashboards": "RiLayoutMasonryLine",
   "02 Action": "RiFireLine",
   "03 Periodic": "RiCalendarLine",
   "04 Templates": "RiFileEditLine",
@@ -35,5 +34,6 @@
   "03 Periodic/01 Daily": "RiCalendarCheckLine",
   "03 Periodic/02 Weekly": "RiCalendar2Line",
   "03 Periodic/03 Monthly": "RiCalendarEventLine",
-  "01 Dashboards/Alignment.md": "RiLineHeight"
+  "02 Action/01 Tasks/Views": "RiEyeLine",
+  "02 Action/01 Tasks": "RiCheckLine"
 }

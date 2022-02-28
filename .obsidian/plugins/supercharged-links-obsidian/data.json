@@ -36,6 +36,18 @@
       "selectAppend": true,
       "selectPrepend": true,
       "selectBackground": true
+    },
+    {
+      "type": "path",
+      "name": "",
+      "value": "02 Action/01 Tasks",
+      "matchCaseSensitive": false,
+      "match": "contains",
+      "uid": "4939-c421",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
     }
   ]
 }

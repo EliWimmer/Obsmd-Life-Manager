@@ -1,6 +1,5 @@
 ---
 cssClasses: cards
-banner_icon: 📐
 ---
 # Projects Overview
 ```dataview
@@ -12,4 +11,3 @@ TABLE
 FROM "02 Action/02 Projects"
 WHERE file.name != "02 Projects"
 ```
-`button-addbanner`

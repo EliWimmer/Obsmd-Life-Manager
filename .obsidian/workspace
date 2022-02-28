@@ -4,33 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "e3f12928e6127c5b",
+        "id": "8ffb1c015944269f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "01 Dashboards/Alignment.md",
+            "file": "04 Templates/Daily Template.md",
             "mode": "preview",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "16d091afa0d9cf3f",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
-        }
-      },
-      {
-        "id": "f483c8c2ba0be1e8",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "02 Action/02 Projects/Build OLM Repo.md",
-            "mode": "source",
             "source": false
           }
         }
@@ -60,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "week",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 Action/02 Projects/Build OLM Repo.md",
+                "file": "04 Templates/Daily Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,17 +108,17 @@
     "direction": "horizontal",
     "width": 300.5
   },
-  "active": "f483c8c2ba0be1e8",
+  "active": "8ffb1c015944269f",
   "lastOpenFiles": [
-    "02 Action/02 Projects/Build OLM Repo.md",
-    "02 Action/02 Projects/New.md",
-    "01 Dashboards/Alignment.md",
-    "04 Templates/Project Template.md",
+    "04 Templates/Daily Template.md",
+    "02 Action/02 Action.md",
+    "02 Action/01 Tasks/01 Tasks.md",
     "02 Action/02 Projects/02 Projects.md",
-    "02 Action/02 Projects/2022-02-28.md",
-    "02 Action/02 Projects/this.md",
-    "02 Action/02 Projects/Nwere.md",
-    "02 Action/02 Projects/build olm repo1.md",
-    "02 Action/02 Projects/New proj.md"
+    "01 Dashboards/Tasks.md",
+    "01 Dashboards/Alignment.md",
+    "03 Periodic/01 Daily/2022-02-24.md",
+    "02 Action/01 Tasks/ 2022 - Week 10 Tasks.md",
+    "02 Action/02 Tasks/02 Tasks.md",
+    "02 Action/02 Projects/Build OLM Repo.md"
   ]
 }

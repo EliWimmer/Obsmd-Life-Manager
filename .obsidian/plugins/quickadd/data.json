@@ -7,30 +7,11 @@
       "command": true,
       "choices": [
         {
-          "id": "02dcd0fc-3283-4e63-8bb7-521d5526e896",
+          "id": "d1af0182-1797-4ee3-9ed0-4312d4300cb3",
           "name": "+ Task",
-          "type": "Template",
+          "type": "Macro",
           "command": false,
-          "templatePath": "",
-          "fileNameFormat": {
-            "enabled": false,
-            "format": ""
-          },
-          "folder": {
-            "enabled": false,
-            "folders": [],
-            "chooseWhenCreatingNote": false,
-            "createInSameFolderAsActiveFile": false
-          },
-          "appendLink": false,
-          "incrementFileName": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
+          "macroId": "8a23311b-f098-4540-8e45-3176e4d92a88"
         },
         {
           "id": "7ca7d78e-c915-4c33-bce0-af804113f5ef",
@@ -67,32 +48,6 @@
         }
       ],
       "collapsed": false
-    },
-    {
-      "id": "e3166970-cfca-4dfd-a803-a74746c78630",
-      "name": "New Project",
-      "type": "Template",
-      "command": false,
-      "templatePath": "04 Tempaltes/Projects Template",
-      "fileNameFormat": {
-        "enabled": true,
-        "format": "{{VALUE: Project Name}}"
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false
-      },
-      "appendLink": false,
-      "incrementFileName": true,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default"
     }
   ],
   "macros": [
@@ -109,7 +64,7 @@
             "name": "New Project",
             "type": "Template",
             "command": false,
-            "templatePath": "",
+            "templatePath": "04 Templates/Project Template",
             "fileNameFormat": {
               "enabled": true,
               "format": "{{VALUE: Project Name}}"
@@ -191,7 +146,7 @@
             },
             "format": {
               "enabled": true,
-              "format": "[Target :: {{VALUE: Target / Completion Criterea}}]]\n"
+              "format": "[Target :: {{VALUE: Target / Completion Criterea}}]\n"
             },
             "insertAfter": {
               "enabled": false,
@@ -254,29 +209,29 @@
       "runOnStartup": false
     },
     {
-      "name": "+ Inline Task",
-      "id": "b6c14cbb-eae8-4641-ab54-51dae03e735e",
+      "name": "+ Task",
+      "id": "8a23311b-f098-4540-8e45-3176e4d92a88",
       "commands": [
         {
-          "name": "New Line",
+          "name": "New Task",
           "type": "NestedChoice",
-          "id": "62f99460-38fa-470f-af31-aa6e2abb387f",
+          "id": "bc042fe4-a32e-4119-be3c-17ebff9a539f",
           "choice": {
-            "id": "b02f48ad-0c57-4a47-83e7-3f6c5fc89096",
-            "name": "New Line",
+            "id": "5285d0a3-c0e5-46ef-aa3f-2b50fe4cbdae",
+            "name": "New Task",
             "type": "Capture",
             "command": false,
             "appendLink": false,
-            "captureTo": "",
-            "captureToActiveFile": true,
+            "captureTo": "02 Action/01 Tasks/{{DATE:YYYY-  \\W\\k w}} Tasks",
+            "captureToActiveFile": false,
             "createFileIfItDoesntExist": {
-              "enabled": false,
+              "enabled": true,
               "createWithTemplate": false,
               "template": ""
             },
             "format": {
               "enabled": true,
-              "format": " "
+              "format": "{{VALUE: Task Name}} {{VALUE:⏫,🔼, ,🔽}} {{VDATE: Due Date, 📅 YYYY-MM-DD}}"
             },
             "insertAfter": {
               "enabled": false,
@@ -286,7 +241,7 @@
               "createIfNotFoundLocation": "top"
             },
             "prepend": false,
-            "task": false,
+            "task": true,
             "openFileInNewTab": {
               "enabled": false,
               "direction": "vertical",
@@ -295,12 +250,6 @@
             "openFile": false,
             "openFileInMode": "default"
           }
-        },
-        {
-          "name": "Tasks: Create or edit task",
-          "type": "Obsidian",
-          "id": "230cb356-d5f6-4de5-815b-aeffc58694e8",
-          "commandId": "obsidian-tasks-plugin:edit-task"
         }
       ],
       "runOnStartup": false

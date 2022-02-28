@@ -1,1 +1,11 @@
-{}
+{
+  "quickadd:choice:e020da04-ff46-4fd9-8765-f9153e47ba01": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "="
+    }
+  ]
+}

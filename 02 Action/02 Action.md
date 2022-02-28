@@ -5,6 +5,7 @@ banner: https://i.redd.it/ghbmrbnbhba81.png
 banner_x: 0.5
 banner_y: 0.5
 ---
+⠀
 #  ▲ Alignment
 ####  ◩ VALUES
 ```dataview
@@ -32,6 +33,7 @@ TABLE
 	complete as "Complete"
 FROM "02 Action/02 Projects"
 WHERE file.name != "02 Projects"
+SORT complete DESCENDING
 ```
 #### ⌁ ◶Trackers
 ```dataview
@@ -39,13 +41,9 @@ TABLE WITHOUT ID
 	link(file.name) as "Day",
 	wake-early AS "🌄",
 	meditate AS "🧘",
-	morning-hygiene AS "🪥",
-	three-jobs AS "🔧",
 	exercise AS "🏃‍♂️",
-	evening-hygiene AS "🦷",
-	plan-next-day AS "✏️",
-	no-pmo as "🍆"
-	FROM "100 Periodic/110 Daily" 
+	plan-next-day AS "✏️"
+	FROM "03 Periodic/01 Daily" 
 	SORT file.name DESC
 ```
 
