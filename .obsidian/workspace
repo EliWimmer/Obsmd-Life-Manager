@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "02 Action/03 Goals/Create Cool Stuff.md",
+            "file": "03 Periodic/01 Daily/2022/02-February/2022-02-28.md",
             "mode": "source",
             "source": false
           }
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "week",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +106,7 @@
       {
         "id": "d6c645e36fe025a2",
         "type": "tabs",
-        "dimension": 71.5542521994135,
+        "dimension": 71.55425219941348,
         "children": [
           {
             "id": "dcaa2e4e44144a89",
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 Action/03 Goals/Create Cool Stuff.md",
+                "file": "03 Periodic/01 Daily/2022/02-February/2022-02-28.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
       {
         "id": "6084d959b6f01e01",
         "type": "tabs",
-        "dimension": 28.445747800586513,
+        "dimension": 28.44574780058651,
         "children": [
           {
             "id": "0b3c00f50d062893",
@@ -160,15 +160,15 @@
   },
   "active": "42b97db3a9996953",
   "lastOpenFiles": [
-    "02 Action/03 Goals/Create Cool Stuff.md",
-    "02 Action/02 Action.md",
-    "03 Periodic/01 Daily/01 Daily.md",
-    "03 Periodic/02 Weekly/02 Weekly.md",
-    "03 Periodic/02 Weekly/2022/02-February/2022-W08.md",
     "03 Periodic/01 Daily/2022/02-February/2022-02-28.md",
-    "03 Periodic/01 Daily/2022/02-February/2022-02-27.md",
-    "03 Periodic/01 Daily/2022/02-February/2022-02-26.md",
-    "03 Periodic/01 Daily/2022/02-February/2022-02-25.md",
-    "03 Periodic/01 Daily/2022/02-February/2022-02-24.md"
+    "03 Periodic/01 Daily/2022/03-March/2022-03-01.md",
+    "04 Templates/Daily Template.md",
+    "06 Guide/Daily Note.md",
+    "02 Action/01 Tasks/01 Tasks.md",
+    "02 Action/02 Projects/Build OLM Repo.md",
+    "02 Action/03 Goals/Create Cool Stuff.md",
+    "02 Action/02 Projects/Make homemade pesto.md",
+    "02 Action/02 Projects/Completed Project.md",
+    "02 Action/03 Goals/Learn to make pastas.md"
   ]
 }

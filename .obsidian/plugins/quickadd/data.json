@@ -28,6 +28,13 @@
           "macroId": "25db43ae-73dd-4e76-a056-6f9653268fc7"
         },
         {
+          "id": "8009379a-d090-4db1-9ad0-e2e4d37d4593",
+          "name": "+ Value",
+          "type": "Macro",
+          "command": false,
+          "macroId": "7fc7f15d-19f6-4363-aea7-829f3cd42d4d"
+        },
+        {
           "id": "bc490e55-a759-48ca-9894-96f876be0f40",
           "name": "+ Goal",
           "type": "Macro",
@@ -354,7 +361,9 @@
             },
             "folder": {
               "enabled": true,
-              "folders": [],
+              "folders": [
+                "02 Action/04 Values"
+              ],
               "chooseWhenCreatingNote": false,
               "createInSameFolderAsActiveFile": false
             },

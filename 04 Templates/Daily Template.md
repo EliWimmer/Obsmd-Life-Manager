@@ -13,14 +13,14 @@ banner: https://preview.redd.it/arqa352ph7x61.jpg?width=960&crop=smart&auto=webp
 
 ######  ↑ TOP TASK
 ```tasks
-due <% tp.date.now("YYYY-MM-DD",0, tp.file.title, "YYYY-MM-DD") %>
+due before <% tp.date.now("YYYY-MM-DD",1, tp.file.title, "YYYY-MM-DD") %>
 not done
 priority is high
 hide task count
 ```
 ###### ○ TASKS
 ```tasks
-due <% tp.date.now("YYYY-MM-DD", 0, tp.file.title, "YYYY-MM-DD") %>
+due before <% tp.date.now("YYYY-MM-DD", 1, tp.file.title, "YYYY-MM-DD") %>
 not done
 priority is below high
 short mode
