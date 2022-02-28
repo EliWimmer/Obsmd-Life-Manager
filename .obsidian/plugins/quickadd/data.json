@@ -40,7 +40,7 @@
           "templatePath": "OLM - 04 Templates/Project Template",
           "fileNameFormat": {
             "enabled": true,
-            "format": "{{VALUE}}"
+            "format": "{{VALUE: Project Name}}"
           },
           "folder": {
             "enabled": true,
@@ -95,6 +95,13 @@
       "type": "Macro",
       "command": true,
       "macroId": "25db43ae-73dd-4e76-a056-6f9653268fc7"
+    },
+    {
+      "id": "93d23b67-f1b5-46f6-a22d-b7e7bf23389d",
+      "name": "+ Inline Task",
+      "type": "Macro",
+      "command": true,
+      "macroId": "b6c14cbb-eae8-4641-ab54-51dae03e735e"
     }
   ],
   "macros": [
@@ -127,7 +134,7 @@
             },
             "format": {
               "enabled": true,
-              "format": "[Goal :: {{Project Name: VALUE}}]  ⠀•⠀ [Deadline :: 📅 {{Deadline (YYYY-MM-DD): VALUE}}] ⠀•⠀ [Complete :: false]"
+              "format": "[Goal :: {{VALUE: Link to related Goal}}]  ⠀•⠀ [Deadline :: {{VDATE: Deadline(YYYY-MM-DD or Relative), 📅 [[YYYY-MM-DD]]}}] ⠀•⠀ [Complete :: false]"
             },
             "insertAfter": {
               "enabled": false,
@@ -146,6 +153,97 @@
             "openFile": false,
             "openFileInMode": "default"
           }
+        },
+        {
+          "name": "Target",
+          "type": "NestedChoice",
+          "id": "cedfdee3-dc68-4f93-8546-3847c8534330",
+          "choice": {
+            "id": "760fcf72-3a02-4b49-af04-702c6e64e2db",
+            "name": "Target",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "[Target :: {{VALUE: Target / Completion Criterea}}]]"
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": true,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Untitled Capture Choice",
+          "type": "NestedChoice",
+          "id": "615245d8-262c-4cfd-8dc2-4c07a4d862d9",
+          "choice": {
+            "id": "41f78860-4535-4fea-ba7f-92f3426ade47",
+            "name": "Untitled Capture Choice",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "### Tasks\n"
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": true,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "+ Inline Task",
+      "id": "b6c14cbb-eae8-4641-ab54-51dae03e735e",
+      "commands": [
+        {
+          "name": "Tasks: Create or edit task",
+          "type": "Obsidian",
+          "id": "230cb356-d5f6-4de5-815b-aeffc58694e8",
+          "commandId": "obsidian-tasks-plugin:edit-task"
         }
       ],
       "runOnStartup": false

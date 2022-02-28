@@ -6,6 +6,7 @@
       {
         "id": "3f5a5a13c9779116",
         "type": "leaf",
+        "dimension": 70.29876977152901,
         "pinned": true,
         "state": {
           "type": "markdown",
@@ -18,13 +19,27 @@
         }
       },
       {
-        "id": "442fc8d4163af32c",
+        "id": "b756c5eb6855766e",
         "type": "leaf",
+        "dimension": 14.850615114235497,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "OLM - 04 Templates/Untitled.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "bd806a38fce09037",
+        "type": "leaf",
+        "dimension": 14.850615114235497,
         "state": {
           "type": "markdown",
           "state": {
             "file": "OLM - 04 Templates/Project Template.md",
-            "mode": "source",
+            "mode": "preview",
             "source": false
           }
         }
@@ -83,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OLM - 04 Templates/Project Template.md",
+                "file": "OLM - 04 Templates/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,17 +129,17 @@
     "direction": "horizontal",
     "width": 300.5
   },
-  "active": "442fc8d4163af32c",
+  "active": "b756c5eb6855766e",
   "lastOpenFiles": [
+    "OLM - 04 Templates/Untitled.md",
     "OLM - 04 Templates/Project Template.md",
+    "OLM - 02 Action/Projects/New Proj.md",
+    "OLM - 02 Action/Projects/Test.md",
+    "OLM - 02 Action/Projects/OLM.md",
+    "OLM - 02 Action/Projects/Build OLM Repo1.md",
     "OLM - 02 Action/Projects/Build OLM Repo.md",
     "README.md",
     "OLM - 02 Action/Projects/New rojec.md",
-    "New Project.md",
-    "OLM - 04 Templates/Daily Template.md",
-    "OLM - 01 Dashboards/Alignment.md",
-    "OLM - 03 Periodic/Daily/2022-02-24.md",
-    "Periodic/Daily/2022-02-26.md",
-    "Periodic/Daily/2022-02-25.md"
+    "New Project.md"
   ]
 }
