@@ -23,8 +23,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
-            "mode": "source",
+            "file": "06 Guide/Quick Start.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "06 Guide/Quick Start.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,12 +161,12 @@
   },
   "active": "64b037a330b673e8",
   "lastOpenFiles": [
+    "06 Guide/Quick Start.md",
     "README.md",
+    "Home.md",
     "02 Action/01 Tasks/01 Tasks.md",
     "03 Periodic/01 Daily/2022/02-February/2022-02-28.md",
-    "06 Guide/Quick Start.md",
     "02 Action/02 Action.md",
-    "Home.md",
     "03 Periodic/01 Daily/2022/03-March/2022-03-01.md",
     "04 Templates/Daily Template.md",
     "06 Guide/Daily Note.md",

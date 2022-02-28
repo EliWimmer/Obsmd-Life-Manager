@@ -31,3 +31,5 @@ Welcome to OLM, explore, and feel free to @ me on [Twitter](https://twitter.com/
 - Hider
 - Supercharged Links
 - Banners
+### Support
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/eliwimmer)
