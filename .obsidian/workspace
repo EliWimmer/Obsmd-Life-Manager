@@ -18,25 +18,13 @@
         }
       },
       {
-        "id": "e7b6d7d3010d3cd4",
+        "id": "442fc8d4163af32c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "03 Periodic/Daily/2022-02-24.md",
-            "mode": "preview",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "40bfcd643205f136",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "04 Templates/Project Template.md",
-            "mode": "preview",
+            "file": "OLM - 04 Templates/Project Template.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -95,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04 Templates/Project Template.md",
+                "file": "OLM - 04 Templates/Project Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,18 +112,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300.5
   },
-  "active": "40bfcd643205f136",
+  "active": "442fc8d4163af32c",
   "lastOpenFiles": [
-    "04 Templates/Project Template.md",
-    "03 Periodic/Daily/2022-02-24.md",
-    "01 Dashboards/Alignment.md",
-    "04 Templates/Daily Template.md",
+    "OLM - 04 Templates/Project Template.md",
+    "OLM - 02 Action/Projects/Build OLM Repo.md",
     "README.md",
+    "OLM - 02 Action/Projects/New rojec.md",
+    "New Project.md",
+    "OLM - 04 Templates/Daily Template.md",
+    "OLM - 01 Dashboards/Alignment.md",
+    "OLM - 03 Periodic/Daily/2022-02-24.md",
     "Periodic/Daily/2022-02-26.md",
-    "Periodic/Daily/2022-02-25.md",
-    "Periodic/Daily/📅 2022-02-24.md",
-    "2022-02-25.md"
+    "Periodic/Daily/2022-02-25.md"
   ]
 }

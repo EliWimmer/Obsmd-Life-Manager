@@ -1,5 +1,155 @@
 {
-  "choices": [],
-  "macros": [],
+  "choices": [
+    {
+      "id": "e020da04-ff46-4fd9-8765-f9153e47ba01",
+      "name": "+ New",
+      "type": "Multi",
+      "command": true,
+      "choices": [
+        {
+          "id": "02dcd0fc-3283-4e63-8bb7-521d5526e896",
+          "name": "+ Task",
+          "type": "Template",
+          "command": false,
+          "templatePath": "",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": ""
+          },
+          "folder": {
+            "enabled": false,
+            "folders": [],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "cdcf2448-2ecd-47a4-a850-d811a40b0719",
+          "name": "+ Project",
+          "type": "Template",
+          "command": false,
+          "templatePath": "OLM - 04 Templates/Project Template",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{VALUE}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "OLM - 02 Action/Projects"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": true,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "78ba94f0-d8ba-4ede-90ad-bd9778e658c0",
+          "name": "+ Goal",
+          "type": "Template",
+          "command": false,
+          "templatePath": "",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": ""
+          },
+          "folder": {
+            "enabled": false,
+            "folders": [],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        }
+      ],
+      "collapsed": false
+    },
+    {
+      "id": "7ca7d78e-c915-4c33-bce0-af804113f5ef",
+      "name": "New Project",
+      "type": "Macro",
+      "command": true,
+      "macroId": "25db43ae-73dd-4e76-a056-6f9653268fc7"
+    }
+  ],
+  "macros": [
+    {
+      "name": "+ Project",
+      "id": "25db43ae-73dd-4e76-a056-6f9653268fc7",
+      "commands": [
+        {
+          "name": "+ Project",
+          "type": "Choice",
+          "id": "92a44168-4bf0-4270-8c25-9a54a024e163",
+          "choiceId": "cdcf2448-2ecd-47a4-a850-d811a40b0719"
+        },
+        {
+          "name": "Metadata",
+          "type": "NestedChoice",
+          "id": "47551d38-a403-431b-be49-ad847cad654b",
+          "choice": {
+            "id": "2bd2fd1f-8ce8-45d0-a42f-c0cacdd475a6",
+            "name": "Metadata",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "[Goal :: {{Project Name: VALUE}}]  ⠀•⠀ [Deadline :: 📅 {{Deadline (YYYY-MM-DD): VALUE}}] ⠀•⠀ [Complete :: false]"
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
   "inputPrompt": "single-line"
 }

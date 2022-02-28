@@ -4,5 +4,7 @@
   "minimal-style@@text-italic@@dark": "#A3A3A3",
   "minimal-style@@h5-variant": "normal",
   "supercharged-links@@3213-2f25-before": "📅 ",
-  "supercharged-links@@3213-2f25-color": "#EAEAEA"
+  "supercharged-links@@3213-2f25-color": "#B8D5E0",
+  "supercharged-links@@a2cb-1cab-before": "📐 ",
+  "supercharged-links@@a2cb-1cab-color": "#DFB9B9"
 }
