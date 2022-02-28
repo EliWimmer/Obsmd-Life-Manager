@@ -28,7 +28,7 @@
   "fancyCursor": true,
   "frostedSidebar": true,
   "trimNames": true,
-  "labeledNav": false,
+  "labeledNav": true,
   "fullWidthMedia": true,
   "bordersToggle": true,
   "bordersTitle": false,

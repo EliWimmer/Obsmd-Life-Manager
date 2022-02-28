@@ -42,13 +42,13 @@ div[data-id="3213-2f25"] div.setting-item-description::after,
 }
 
 div[data-id="a2cb-1cab"] div.setting-item-description,
-[data-link-path*="02 Action/Projects" i] {
+[data-link-path*="02 Action/02 Projects" i] {
     color: var(--a2cb-1cab-color) !important;
     font-weight: var(--a2cb-1cab-weight);
 }
 
 .c-a2cb-1cab-use-background div[data-id="a2cb-1cab"] div.setting-item-description,
-.c-a2cb-1cab-use-background .data-link-text[data-link-path*="02 Action/Projects" i] {
+.c-a2cb-1cab-use-background .data-link-text[data-link-path*="02 Action/02 Projects" i] {
     background-color: var(--a2cb-1cab-background-color) !important;
     border-radius: 5px;
     padding-left: 2px;
@@ -57,12 +57,12 @@ div[data-id="a2cb-1cab"] div.setting-item-description,
 }
 
 div[data-id="a2cb-1cab"] div.setting-item-description::before,
-.data-link-icon[data-link-path*="02 Action/Projects" i]::before {
+.data-link-icon[data-link-path*="02 Action/02 Projects" i]::before {
     content: var(--a2cb-1cab-before);
 }
 
 div[data-id="a2cb-1cab"] div.setting-item-description::after,
-.data-link-icon-after[data-link-path*="02 Action/Projects" i]::after {
+.data-link-icon-after[data-link-path*="02 Action/02 Projects" i]::after {
     content: var(--a2cb-1cab-after);
 }
 /* @settings
@@ -130,7 +130,7 @@ settings:
         default: '#ffffff'
     - 
         id: a2cb-1cab
-        title: path is 02 Action/Projects
+        title: path is 02 Action/02 Projects
         description: Example note
         type: heading
         collapsed: true

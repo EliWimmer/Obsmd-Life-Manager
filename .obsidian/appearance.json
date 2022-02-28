@@ -2,6 +2,7 @@
   "baseFontSize": 16,
   "cssTheme": "Minimal",
   "enabledCssSnippets": [
-    "supercharged-links-gen"
+    "supercharged-links-gen",
+    "banner"
   ]
 }

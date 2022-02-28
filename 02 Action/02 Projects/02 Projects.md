@@ -12,3 +12,4 @@ TABLE
 FROM "02 Action/02 Projects"
 WHERE file.name != "02 Projects"
 ```
+`button-addbanner`

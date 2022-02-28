@@ -30,7 +30,8 @@ TABLE
 	goal AS "Goal",
 	deadline as "Deadline",
 	complete as "Complete"
-FROM "300 Action/310 Projects"
+FROM "02 Action/02 Projects"
+WHERE file.name != "02 Projects"
 ```
 #### ⌁ ◶Trackers
 ```dataview

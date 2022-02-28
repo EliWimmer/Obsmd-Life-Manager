@@ -33,32 +33,11 @@
           "openFileInMode": "default"
         },
         {
-          "id": "cdcf2448-2ecd-47a4-a850-d811a40b0719",
+          "id": "7ca7d78e-c915-4c33-bce0-af804113f5ef",
           "name": "+ Project",
-          "type": "Template",
+          "type": "Macro",
           "command": false,
-          "templatePath": "04 Templates/Project Template",
-          "fileNameFormat": {
-            "enabled": true,
-            "format": "{{VALUE: Project Name}}"
-          },
-          "folder": {
-            "enabled": true,
-            "folders": [
-              "02 Action/02 Projects"
-            ],
-            "chooseWhenCreatingNote": false,
-            "createInSameFolderAsActiveFile": false
-          },
-          "appendLink": false,
-          "incrementFileName": true,
-          "openFileInNewTab": {
-            "enabled": true,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": true,
-          "openFileInMode": "default"
+          "macroId": "25db43ae-73dd-4e76-a056-6f9653268fc7"
         },
         {
           "id": "78ba94f0-d8ba-4ede-90ad-bd9778e658c0",
@@ -90,18 +69,30 @@
       "collapsed": false
     },
     {
-      "id": "7ca7d78e-c915-4c33-bce0-af804113f5ef",
+      "id": "e3166970-cfca-4dfd-a803-a74746c78630",
       "name": "New Project",
-      "type": "Macro",
-      "command": true,
-      "macroId": "25db43ae-73dd-4e76-a056-6f9653268fc7"
-    },
-    {
-      "id": "93d23b67-f1b5-46f6-a22d-b7e7bf23389d",
-      "name": "+ Inline Task",
-      "type": "Macro",
-      "command": true,
-      "macroId": "b6c14cbb-eae8-4641-ab54-51dae03e735e"
+      "type": "Template",
+      "command": false,
+      "templatePath": "04 Tempaltes/Projects Template",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{VALUE: Project Name}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default"
     }
   ],
   "macros": [
@@ -110,10 +101,37 @@
       "id": "25db43ae-73dd-4e76-a056-6f9653268fc7",
       "commands": [
         {
-          "name": "+ Project",
-          "type": "Choice",
-          "id": "92a44168-4bf0-4270-8c25-9a54a024e163",
-          "choiceId": "cdcf2448-2ecd-47a4-a850-d811a40b0719"
+          "name": "New Project",
+          "type": "NestedChoice",
+          "id": "47bc64c4-4c0d-4d4e-aaca-383805e15be4",
+          "choice": {
+            "id": "f503462d-4e3c-4c13-a0b5-40e9f0fabff1",
+            "name": "New Project",
+            "type": "Template",
+            "command": false,
+            "templatePath": "",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE: Project Name}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "02 Action/02 Projects"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "incrementFileName": true,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default"
+          }
         },
         {
           "name": "Metadata",
@@ -173,7 +191,7 @@
             },
             "format": {
               "enabled": true,
-              "format": "[Target :: {{VALUE: Target / Completion Criterea}}]]\n\n---"
+              "format": "[Target :: {{VALUE: Target / Completion Criterea}}]]\n"
             },
             "insertAfter": {
               "enabled": false,
@@ -194,12 +212,12 @@
           }
         },
         {
-          "name": "Untitled Capture Choice",
+          "name": "Fill Rest",
           "type": "NestedChoice",
           "id": "615245d8-262c-4cfd-8dc2-4c07a4d862d9",
           "choice": {
             "id": "41f78860-4535-4fea-ba7f-92f3426ade47",
-            "name": "Untitled Capture Choice",
+            "name": "Fill Rest",
             "type": "Capture",
             "command": false,
             "appendLink": false,
@@ -212,7 +230,7 @@
             },
             "format": {
               "enabled": true,
-              "format": "### Tasks\n"
+              "format": "\n---\n### Tasks\n"
             },
             "insertAfter": {
               "enabled": false,
