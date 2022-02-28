@@ -14,6 +14,11 @@
       "type": "file",
       "title": "02 Projects",
       "path": "02 Action/02 Projects/02 Projects.md"
+    },
+    {
+      "type": "file",
+      "title": "03 Goals",
+      "path": "02 Action/03 Goals/03 Goals.md"
     }
   ]
 }

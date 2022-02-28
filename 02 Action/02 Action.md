@@ -21,7 +21,8 @@ TABLE
 	value as "Value",
 	deadline as "Deadline",
 	complete as "Complete"
-FROM "300 Action/320 Goals"
+FROM "02 Action/03 Goals"
+WHERE file.name != "03 Goals"
 ```
 
 #### ◺ PROJECTS
@@ -45,5 +46,6 @@ TABLE WITHOUT ID
 	plan-next-day AS "✏️"
 	FROM "03 Periodic/01 Daily" 
 	SORT file.name DESC
+	LIMIT 30
 ```
 

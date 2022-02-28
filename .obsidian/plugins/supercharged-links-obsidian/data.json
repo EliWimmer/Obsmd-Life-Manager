@@ -48,6 +48,18 @@
       "selectAppend": true,
       "selectPrepend": true,
       "selectBackground": true
+    },
+    {
+      "type": "path",
+      "name": "",
+      "value": "02 Action/03 Goals",
+      "matchCaseSensitive": false,
+      "match": "contains",
+      "uid": "9cdf-5b08",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
     }
   ]
 }

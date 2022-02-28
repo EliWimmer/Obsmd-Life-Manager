@@ -8,10 +8,17 @@
       "choices": [
         {
           "id": "d1af0182-1797-4ee3-9ed0-4312d4300cb3",
-          "name": "+ Task",
+          "name": "+ Task to Inbox",
           "type": "Macro",
           "command": false,
           "macroId": "8a23311b-f098-4540-8e45-3176e4d92a88"
+        },
+        {
+          "id": "f8e28003-23c7-424d-bc3c-c04f2d8f5feb",
+          "name": "+ Task Here",
+          "type": "Macro",
+          "command": false,
+          "macroId": "19c4ad7a-43e0-4f28-beb7-0a9ea11b5bcb"
         },
         {
           "id": "7ca7d78e-c915-4c33-bce0-af804113f5ef",
@@ -21,30 +28,11 @@
           "macroId": "25db43ae-73dd-4e76-a056-6f9653268fc7"
         },
         {
-          "id": "78ba94f0-d8ba-4ede-90ad-bd9778e658c0",
+          "id": "bc490e55-a759-48ca-9894-96f876be0f40",
           "name": "+ Goal",
-          "type": "Template",
+          "type": "Macro",
           "command": false,
-          "templatePath": "",
-          "fileNameFormat": {
-            "enabled": false,
-            "format": ""
-          },
-          "folder": {
-            "enabled": false,
-            "folders": [],
-            "chooseWhenCreatingNote": false,
-            "createInSameFolderAsActiveFile": false
-          },
-          "appendLink": false,
-          "incrementFileName": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
+          "macroId": "ec0916a8-5960-4bc9-9cb3-dd26f01de873"
         }
       ],
       "collapsed": false
@@ -209,7 +197,7 @@
       "runOnStartup": false
     },
     {
-      "name": "+ Task",
+      "name": "+ Task to Inbox",
       "id": "8a23311b-f098-4540-8e45-3176e4d92a88",
       "commands": [
         {
@@ -250,6 +238,98 @@
             "openFile": false,
             "openFileInMode": "default"
           }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "+ Goal",
+      "id": "ec0916a8-5960-4bc9-9cb3-dd26f01de873",
+      "commands": [
+        {
+          "name": "Create Goal Template",
+          "type": "NestedChoice",
+          "id": "4f656563-0dfd-4a90-a5fe-644a3bae0bc6",
+          "choice": {
+            "id": "afc7d30b-1176-44d3-b679-52a847c8267f",
+            "name": "Create Goal Template",
+            "type": "Template",
+            "command": false,
+            "templatePath": "04 Templates/Goal Template",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE: Goal Name}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "02 Action/03 Goals"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "incrementFileName": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default"
+          }
+        },
+        {
+          "name": "Meta Data",
+          "type": "NestedChoice",
+          "id": "1defa7e3-80d4-40a1-ac59-7cac174d6a83",
+          "choice": {
+            "id": "22a247ab-e48f-4052-bc85-e4d7c8e8d708",
+            "name": "Meta Data",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "",
+            "captureToActiveFile": true,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "[Why :: {{VALUE: Define your why}}]  ⠀•⠀ [Value:: {{VALUE: Link to Value}}]  ⠀•⠀ [Deadline :: {{VDATE:Deadline, 📅 YYYY-MM-DD}}]  ⠀•⠀ [Complete :: ❌]"
+            },
+            "insertAfter": {
+              "enabled": false,
+              "after": "",
+              "insertAtEnd": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": true,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "+ Task Here",
+      "id": "19c4ad7a-43e0-4f28-beb7-0a9ea11b5bcb",
+      "commands": [
+        {
+          "name": "Tasks: Create or edit task",
+          "type": "Obsidian",
+          "id": "ef3b1485-9f0e-4701-942a-e89590f40bd0",
+          "commandId": "obsidian-tasks-plugin:edit-task"
         }
       ],
       "runOnStartup": false

@@ -34,7 +34,7 @@
   "bordersTitle": false,
   "minimalStatus": true,
   "focusMode": false,
-  "underlineInternal": true,
+  "underlineInternal": false,
   "underlineExternal": true,
   "useSystemTheme": false,
   "folding": false
