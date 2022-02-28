@@ -6,6 +6,7 @@ OLM is a productivity system for Obsidian. Includes task and project management,
 2. Click this link in Obsidian: [[Quick Start]]
 
 If you this useful, please consider buying me a coffee!
+
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/eliwimmer)
 
 
