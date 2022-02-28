@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "6ed9a6d43986c4e9",
+        "id": "a13745e9e97d1459",
         "type": "leaf",
         "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "02 Action/02 Action.md",
+            "file": "02 Action/01 Tasks/01 Tasks.md",
             "mode": "preview",
             "source": false
           },
@@ -18,12 +18,12 @@
         }
       },
       {
-        "id": "42b97db3a9996953",
+        "id": "64b037a330b673e8",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "03 Periodic/01 Daily/2022/02-February/2022-02-28.md",
+            "file": "README.md",
             "mode": "source",
             "source": false
           }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03 Periodic/01 Daily/2022/02-February/2022-02-28.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,19 +156,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 501.5
+    "width": 501.5,
+    "collapsed": true
   },
-  "active": "42b97db3a9996953",
+  "active": "64b037a330b673e8",
   "lastOpenFiles": [
+    "README.md",
+    "02 Action/01 Tasks/01 Tasks.md",
     "03 Periodic/01 Daily/2022/02-February/2022-02-28.md",
+    "06 Guide/Quick Start.md",
+    "02 Action/02 Action.md",
+    "Home.md",
     "03 Periodic/01 Daily/2022/03-March/2022-03-01.md",
     "04 Templates/Daily Template.md",
     "06 Guide/Daily Note.md",
-    "02 Action/01 Tasks/01 Tasks.md",
-    "02 Action/02 Projects/Build OLM Repo.md",
-    "02 Action/03 Goals/Create Cool Stuff.md",
-    "02 Action/02 Projects/Make homemade pesto.md",
-    "02 Action/02 Projects/Completed Project.md",
-    "02 Action/03 Goals/Learn to make pastas.md"
+    "02 Action/02 Projects/Build OLM Repo.md"
   ]
 }

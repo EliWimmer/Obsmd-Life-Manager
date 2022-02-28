@@ -1,7 +1,8 @@
 *For best experience open this readme in Obsidian*
 # Obsidian Life Manager
 OLM is a productivity system for Obsidian. Includes task and project management, goal setting, habit tracking, and periodic reviews. Loosely based on [August Bradley's PPV System](http://www.augustbradley.com/).
-
+![[Screenshot 2022-02-28 153758.png]]
+![[Screenshot 2022-02-28 153834.png]]
 ## Install
 1. Clone or download and unzip this repo. Set up as new vault.
 2. Click this link in Obsidian: [[Quick Start]]
